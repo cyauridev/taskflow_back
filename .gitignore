@@ -1,0 +1,56 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos temporales
+tmp/
+temp/
+.tmp/
+
+# Uploads o archivos generados
+uploads/
+public/uploads/
+
+# Base de datos local
+*.sqlite
+*.sqlite3
+
+# Docker opcional local
+docker-data/
+
+# Nest cache
+.cache/
